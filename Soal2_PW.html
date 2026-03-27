@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 2</title>
+    <script src="jsbani.js"></script>
+</head>
+<body>
+    
+    <h2 id="judul">Judul Awal</h2>
+
+    <input type="text" id="inputJudul" placeholder="Masukkan judul baru">
+    <button onclick="ubahJudul()">Ubah Judul</button>
+
+    <script>
+        function ubahJudul() {
+            let teksBaru = document.getElementById("inputJudul").value;
+
+            document.getElementById("judul").innerHTML = teksBaru;
+        }
+    </script>
+</body>
+</html>
