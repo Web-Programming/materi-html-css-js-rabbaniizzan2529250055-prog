@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone Rental - Katalog Game Terlengkap</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/gayaku.css">
+</head>
+<body>
+    <!-- Header / Hero Section -->
+    <header class="hero-section bg-dark text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3">🎮 GameZone Rental</h1>
+                    <p class="lead mb-4">Sewa Game Favoritmu dengan Harga Terjangkau! Koleksi terlengkap game PS4, PS5, Xbox, dan PC.</p>
+                    <a href="#katalog" class="btn btn-primary btn-lg px-4 me-3">
+                        <i class="bi bi-play-circle me-2"></i>
+                        Lihat Katalog
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-lg px-4">
+                        <i class="bi bi-telephone me-2"></i>
+                        Hubungi Kami
+                    </a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=500&h=400&fit=crop" 
+                         alt="Game Console" class="img-fluid rounded shadow-lg" style="max-height: 400px; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Loading Section -->
+        <div id="loadingSection" class="text-center py-5">
+            <div class="spinner-border text-primary" style="width: 4rem; height: 4rem;" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <h3 class="mt-4 text-muted">Memuat katalog game...</h3>
+            <p class="text-muted">Mohon tunggu beberapa saat</p>
+        </div>
+
+        <!-- Katalog Games Section -->
+        <section id="katalogSection" class="d-none">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="display-6 fw-bold text-center mb-4">📚 Katalog Game Tersedia</h2>
+                    <p class="text-center text-muted lead">Pilih game favoritmu dan sewa sekarang juga!</p>
+                </div>
+            </div>
+
+            <div class="row" id="gamesContainer">
+                <!-- Games akan dimuat di sini oleh JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">🎮 GameZone Rental</h5>
+                    <p>Rental game terpercaya dengan koleksi lengkap dan pelayanan terbaik.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="fw-bold mb-3">Kontak</h6>
+                    <p><i class="bi bi-telephone"></i> 0812-3456-7890</p>
+                    <p><i class="bi bi-envelope"></i> info@gamezone.com</p>
+                    <p><i class="bi bi-geo-alt"></i> Jl. Game No. 123, Jakarta</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="fw-bold mb-3">Layanan</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none">Sewa Harian</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Sewa Mingguan</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Sewa Bulanan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2024 GameZone Rental. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

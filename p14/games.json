@@ -1,0 +1,38 @@
+[
+  {
+    "gambar": "image/cyberpunk.jpg  ",
+    "judul": "Cyberpunk 2077",
+    "genre": "Action RPG, Open World",
+    "deskripsi": "Petualangan futuristik di Night City dengan cerita mendalam dan gameplay RPG yang imersif."
+  },
+  {
+    "gambar": "image/zelda.webp",
+    "judul": "The Legend of Zelda: Breath of the Wild",
+    "genre": "Action Adventure, Open World",
+    "deskripsi": "Eksplorasi dunia Hyrule yang luas dengan puzzle kompleks dan pertarungan epik."
+  },
+  {
+    "gambar": "image/god of war.jpg",
+    "judul": "God of War (2018)",
+    "genre": "Action Adventure, Hack & Slash",
+    "deskripsi": "Kisah epik Kratos dan Atreus dalam dunia mitologi Norse yang penuh emosi."
+  },
+  {
+    "gambar": "image/Reddead2.avif",
+    "judul": "Red Dead Redemption 2",
+    "genre": "Open World, Action Adventure",
+    "deskripsi": "Kehidupan cowboy Arthur Morgan di Wild West Amerika dengan cerita yang luar biasa."
+  },
+  {
+    "gambar": "image/EldenRing.jpg",
+    "judul": "Elden Ring",
+    "genre": "Action RPG, Souls-like",
+    "deskripsi": "Dunia terbuka FromSoftware dengan tantangan Souls-like dan cerita misterius."
+  },
+  {
+    "gambar": "image/ResidentEvil.jpg",
+    "judul": "Resident Evil Village",
+    "genre": "Survival Horror",
+    "deskripsi": "Petualangan horor Ethan Winters di desa misterius Eropa Timur."
+  }
+]
